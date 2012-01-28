@@ -1,0 +1,5 @@
+oxygen-gtk3 (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #657731) 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 26 Jan 2012 07:10:55 +0100
