@@ -1,4 +1,4 @@
 version=3
 
 opts=pasv \
-  ftp://ftp.kde.org/pub/kde/stable/oxygen-gtk3/([\d\.]+)/src/oxygen-gtk3-([\d\.]+)\.tar\.bz2
+  ftp://ftp.kde.org/pub/kde/stable/oxygen-gtk3/([\d\.]+)/src/oxygen-gtk3-([\d\.]+)\.tar\.(?:bz2|xz|gz)
