@@ -10,7 +10,7 @@ Index: b/CMakeLists.txt
 ===================================================================
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -205,4 +205,6 @@ configure_file( config.h.cmake ${CMAKE_B
+@@ -192,5 +192,7 @@ configure_file( config.h.cmake ${CMAKE_B
  add_subdirectory( src )
  add_subdirectory( rc )
  add_subdirectory( special-icons )
@@ -18,3 +18,4 @@ Index: b/CMakeLists.txt
 +if( NOT DEBIAN_NO_DEMOS )
 +  add_subdirectory( demo )
 +endif( NOT DEBIAN_NO_DEMOS )
+ 
