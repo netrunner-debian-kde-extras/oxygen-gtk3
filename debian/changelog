@@ -1,3 +1,16 @@
+oxygen-gtk3 (1.1.2-1~exp0) experimental; urgency=low
+
+  * New upstream release [January 2013]
+    (Closes: #700180).
+  * Keep LFDFLAGS when passing '--as-needed' (fixes Hardening).
+  * Added lintian-overrides:
+    + for 'no-fortify' false positives.
+    + for 'data.tar.xz-member-without-dpkg-pre-depends'.
+  * Standards to 3.9.4.
+  * xz compression for source and binaries.
+
+ -- Dmitry Smirnov <onlyjob@member.fsf.org>  Sun, 10 Feb 2013 13:06:56 +1100
+
 oxygen-gtk3 (1.0.4-1) unstable; urgency=low
 
   * Initial release (Closes: #657731) 
