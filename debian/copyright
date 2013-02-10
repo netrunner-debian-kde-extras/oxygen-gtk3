@@ -41,7 +41,7 @@ License: MIT/X11 (BSD like)
 Files: debian/*
 Copyright: 2010-2011 Fathi Boudra <fabo@debian.org>
            2011-2012 Kai Wasserbäch <curan@debian.org>
-           2012      Dmitry Smirnov <onlyjob@member.fsf.org>
+           2012-2013 Dmitry Smirnov <onlyjob@member.fsf.org>
            2012      Philip Muškovac <yofel@kubuntu.org>
 License: LGPL-2+
 
