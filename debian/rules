@@ -13,3 +13,6 @@ override_dh_auto_configure:
 
 override_dh_makeshlibs:
 	dh_makeshlibs -X/usr/lib/$(DEB_HOST_MULTIARCH)/gtk-3.0
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
