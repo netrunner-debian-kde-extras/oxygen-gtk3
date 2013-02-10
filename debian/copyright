@@ -19,7 +19,7 @@ License: LGPL-2+
 
 Files: src/oxygenanimationdata.h src/oxygenanimationmodes.h
 Copyright: 2009 Hugo Pereira Da Costa <hugo.pereira@free.fr>
-License: MIT/X11 (BSD like)
+License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to
  deal in the Software without restriction, including without limitation the
@@ -37,6 +37,10 @@ License: MIT/X11 (BSD like)
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  IN THE SOFTWARE.
+Comment:
+ This license also known as "MIT/X11 (BSD like)" or "MIT" however FSF
+ consider "MIT" labelling ambiguous and copyright-format specification
+ recommend to label such license as "Expat".
 
 Files: debian/*
 Copyright: 2010-2011 Fathi Boudra <fabo@debian.org>

@@ -8,6 +8,7 @@ oxygen-gtk3 (1.1.2-1~exp0) experimental; urgency=low
     + for 'data.tar.xz-member-without-dpkg-pre-depends'.
   * Standards to 3.9.4.
   * xz compression for source and binaries.
+  * Corrected "Expat" license name in debian/copyright.
 
  -- Dmitry Smirnov <onlyjob@member.fsf.org>  Sun, 10 Feb 2013 13:06:56 +1100
 
