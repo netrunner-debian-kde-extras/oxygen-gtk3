@@ -1,5 +1,2 @@
 ## false-positive:
 hardening-no-fortify-functions usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/theming-engines/liboxygen-gtk.so
-
-## Acknowledged:
-data.tar.xz-member-without-dpkg-pre-depends

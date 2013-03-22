@@ -5,7 +5,6 @@ oxygen-gtk3 (1.1.2-1~exp0) experimental; urgency=low
   * Keep LFDFLAGS when passing '--as-needed' (fixes Hardening).
   * Added lintian-overrides:
     + for 'no-fortify' false positives.
-    + for 'data.tar.xz-member-without-dpkg-pre-depends'.
   * Standards to 3.9.4.
   * xz compression for source and binaries.
   * Corrected "Expat" license name in debian/copyright.
