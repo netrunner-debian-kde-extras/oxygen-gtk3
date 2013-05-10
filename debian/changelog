@@ -1,3 +1,9 @@
+oxygen-gtk3 (1.1.3-1) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 10 May 2013 12:05:34 +1000
+
 oxygen-gtk3 (1.1.3-1~exp0) experimental; urgency=low
 
   * New upstream release [April 2013]
