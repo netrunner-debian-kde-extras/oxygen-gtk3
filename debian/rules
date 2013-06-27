@@ -7,9 +7,12 @@ export DEB_BUILD_MAINT_OPTIONS=hardening=+all,-pie
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-		-DDEBIAN_NO_DEMOS=1 \
-		-DCMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT=yes \
-		-DCMAKE_SHARED_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed $(LDFLAGS)"
+            -DCMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT=yes \
+            -DCMAKE_SHARED_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed $(LDFLAGS)"
+#          -DDEBIAN_NO_DEMOS=1
+
+override_dh_auto_install:
+	dh_auto_install --destdir=$(CURDIR)/debian/tmp
 
 override_dh_makeshlibs:
 	dh_makeshlibs -X/usr/lib/$(DEB_HOST_MULTIARCH)/gtk-3.0
