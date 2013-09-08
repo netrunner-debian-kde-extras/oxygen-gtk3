@@ -16,6 +16,7 @@ Architecture: any
 Pre-Depends: multiarch-support
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
+Breaks: libgtk-3-0 (<< 3.8)
 Description: Oxygen widget theme for GTK3-based applications
  Oxygen-Gtk is a port of the Oxygen widget style to GTK+.
  .
