@@ -1,0 +1,21 @@
+Last-Update: 2013-10-12
+Forwarded: not-needed
+Author: Dmitry Smirnov <onlyjob@member.fsf.org>
+Origin: https://bugs.kde.org/attachment.cgi?id=80588&action=edit
+Bug-KDE: https://bugs.kde.org/show_bug.cgi?id=321284
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=714205
+Description: fix mouse wheel scrolling
+
+--- a/src/animations/oxygenscrolledwindowdata.cpp
++++ b/src/animations/oxygenscrolledwindowdata.cpp
+@@ -139,9 +139,9 @@
+                 << std::endl;
+             #endif
+ 
+             // adjust event mask
+-            gtk_widget_add_events( widget, GDK_ENTER_NOTIFY_MASK|GDK_LEAVE_NOTIFY_MASK|GDK_FOCUS_CHANGE_MASK );
++            gtk_widget_add_events( widget, GDK_ENTER_NOTIFY_MASK|GDK_LEAVE_NOTIFY_MASK|GDK_FOCUS_CHANGE_MASK|GDK_SCROLL_MASK|GDK_SMOOTH_SCROLL_MASK );
+ 
+             // allocate new Hover data
+             ChildData data;
+             data._destroyId.connect( G_OBJECT(widget), "destroy", G_CALLBACK( childDestroyNotifyEvent ), this );
