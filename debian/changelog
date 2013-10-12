@@ -1,10 +1,11 @@
-oxygen-gtk3 (1.2.0-1) UNRELEASED; urgency=low
+oxygen-gtk3 (1.2.0-1) unstable; urgency=low
 
   * New upstream release [August 2013].
   * Build demo but do not install it.
   * debian/control: "Breaks: libgtk-3-0 (<< 3.8)" (Closes: #718193).
+  * New patch to fix mouse wheel scrolling (Closes: #714205).
 
- -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 08 Sep 2013 18:54:41 +1000
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 12 Oct 2013 13:16:07 +1100
 
 oxygen-gtk3 (1.1.4-1) unstable; urgency=low
 
