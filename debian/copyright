@@ -7,7 +7,7 @@ Copyright: 2006      Andrew Johnson <acjgenius@earthlink.net>
            2006-2007 Benjamin Berg <benjamin@sipsolutions.net>
            2010      Cédric Bellegarde <gnumdk@gmail.com>
            2003-2010 Craig Drummond <craig.p.drummond@gmail.com>
-           2010-2012 Hugo Pereira Da Costa <hugo@oxygen-icons.org>
+           2010-2014 Hugo Pereira Da Costa <hugo.pereira@free.fr>
            2007      Matthew Woehlke <mw_triad@users.sourceforge.net>
            2010      Nokia Corporation and/or its subsidiary(-ies)
            2001      Red Hat, Inc. <@redhat.com>
@@ -45,7 +45,7 @@ Comment:
 Files: debian/*
 Copyright: 2010-2011 Fathi Boudra <fabo@debian.org>
            2011-2012 Kai Wasserbäch <curan@debian.org>
-           2012-2013 Dmitry Smirnov <onlyjob@debian.org>
+           2012-2014 Dmitry Smirnov <onlyjob@debian.org>
            2012      Philip Muškovac <yofel@kubuntu.org>
 License: LGPL-2+
 
