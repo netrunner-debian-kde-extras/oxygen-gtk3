@@ -1,3 +1,10 @@
+oxygen-gtk3 (1.4.1-1) unstable; urgency=medium
+
+  * New upstream release [October 2014].
+  * Standards-Version: 3.9.6.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 28 Oct 2014 20:25:29 +1100
+
 oxygen-gtk3 (1.4.0-1) unstable; urgency=low
 
   * New upstream release [July 2014].
