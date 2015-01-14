@@ -2,6 +2,7 @@ oxygen-gtk3 (1.4.1-1) unstable; urgency=medium
 
   * New upstream release [October 2014].
   * Standards-Version: 3.9.6.
+  * Lintianisation: pre-depends-directly-on-multiarch-support.
 
  -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 28 Oct 2014 20:25:29 +1100
 
