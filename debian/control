@@ -14,8 +14,9 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/oxygen-gtk3.
 Package: gtk3-engines-oxygen
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: kde-config-gtk-style
 Breaks: libgtk-3-0 (<< 3.8)
 Description: Oxygen widget theme for GTK3-based applications
  Oxygen-Gtk is a port of the Oxygen widget style to GTK+.
