@@ -1,0 +1,21 @@
+Last-Update: 2015-03-25
+Forwarded: not-needed
+Origin: https://bugs.kde.org/show_bug.cgi?id=321284#c9
+Bug-KDE: https://bugs.kde.org/show_bug.cgi?id=321284#c9
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=775338
+Author: Dmitry Smirnov <onlyjob@member.fsf.org>
+Description: fix floating drop-down menus
+
+--- a/rc/gtk.css
++++ b/rc/gtk.css
+@@ -52,9 +52,9 @@
+ 
+     -GtkButton-default_border: 0;
+     -GtkButton-default_outside_border: 0;
+ 
+-    -GtkComboBox-appears-as-list: 1;
++    -GtkComboBox-appears-as-list: 0;
+ 
+     -GtkMenu-horizontal-offset: -7px;
+     -GtkMenuBar-internal-padding: 0;
+ 
