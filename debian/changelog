@@ -1,3 +1,10 @@
+oxygen-gtk3 (1.4.1-2) unstable; urgency=medium
+
+  * New patch to fix floating drop-down menus (Closes: #775338).
+  * Suggests: kde-config-gtk-style.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 25 Mar 2015 15:49:17 +1100
+
 oxygen-gtk3 (1.4.1-1) unstable; urgency=medium
 
   * New upstream release [October 2014].
